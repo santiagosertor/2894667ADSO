@@ -1,0 +1,165 @@
+
+.button{
+  background-color: violet;
+  padding: 12px;
+  border: solid 1px purple;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-decoration: none;
+  display:inline-flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 300px;
+  color: white;
+  cursor: pointer;
+  transition: 1s all;
+}
+.button:hover{
+ background-color: white;
+ color: blueviolet;
+ border: solid ;
+}
+.button--borde{
+  border: solid 1px purple;
+  background-color: white;
+  color: blueviolet;
+}
+
+.button--borde:hover{
+  border: solid 1px white;
+  background-color: rgb(179, 1, 255);
+  color: rgb(254, 252, 255);
+}
+
+.buttonblue{
+  background-color: var(--color3);
+  padding: 12px;
+  border: solid 1px var(--color2);
+  border-radius: 5px;
+  margin: 0 auto;
+  text-decoration: none;
+  display:inline-flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 300px;
+  color: white;
+  cursor: pointer;
+  transition: 1s all;
+}
+.buttonblue:hover{
+ background-color:var(--color1);
+ color: var(--color2);
+ border: solid 1px var(--color2);
+}
+.button--blue{
+  border: solid 1px var(--color2);
+  background-color: var(--color1);
+  color: var(--color3);
+}
+
+.button--blue:hover{
+  border: solid 1px var(--color1);
+  background-color: var(--color3);
+  color:var(--color1);
+}
+
+.buttonyellow{
+  background-color: var(--color6);
+  padding: 12px;
+  border: solid 1px var(--color6);
+  border-radius: 5px;
+  margin: 0 auto;
+  text-decoration: none;
+  display:inline-flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 300px;
+  color: var(--color2);
+  cursor: pointer;
+  transition: 1s all;
+}
+.buttonyellow:hover{
+ background-color: var(--color1);
+ color: var(--color6);
+ border: solid ;
+}
+.button--yellow{
+  border: solid 1px var(--color6);
+  background-color: var(--color1);
+  color: var(--color6);
+}
+
+.button--yellow:hover{
+  border: solid 1px var(--color6);
+  background-color: var(--color6);
+  color: var(--color2);
+}
+
+.buttonred{
+  background-color: var(--color5);
+  padding: 12px;
+  border: solid 1px var(--color1);
+  border-radius: 5px;
+  margin: 0 auto;
+  text-decoration: none;
+  display:inline-flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 300px;
+  color: var(--color1);
+  cursor: pointer;
+  transition: 1s all;
+}
+.buttonred:hover{
+ background-color: var(--color1);
+ color:var(--color5);
+ border: solid ;
+}
+.button--red{
+  border: solid 1px var(--color2);
+  background-color: var(--color1);
+  color: var(--color5);
+}
+
+.button--red:hover{
+  border: solid 1px var(--color1);
+  background-color: var(--color5);
+  color: var(--color1);
+}
+
+.buttongreen{
+  background-color: var(--color4);
+  padding: 12px;
+  border: solid 1px var(--color1);
+  border-radius: 5px;
+  margin: 0 auto;
+  text-decoration: none;
+  display:inline-flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 300px;
+  color: white;
+  cursor: pointer;
+  transition: 1s all;
+}
+.buttongreen:hover{
+ background-color: var(--color1);
+ color: var(--color4);
+ border: solid ;
+}
+.button--green{
+  border: solid 1px var(--color2);
+  background-color: var(--color1);
+  color: var(--color4);
+}
+
+.button--green:hover{
+  border: solid 1px var(--color1);
+  background-color: var(--color4);
+  color: var(--color1);
+}
